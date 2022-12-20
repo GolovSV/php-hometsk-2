@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  app:
+    container_name: app_app_local
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile_app_local
+    volumes:
+      - ./:/home/evgeniy/www

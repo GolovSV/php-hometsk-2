@@ -1,0 +1,18 @@
+FROM php:8.0.3-fpm-buster
+
+# Start as root
+USER root
+
+COPY --from=composer:2.2.1 /usr/bin/composer /usr/bin/composer
+
+RUN groupadd --gid 1000 evgeniy \
+  && useradd --uid 1000 --gid evgeniy --shell /bin/bash --create-home evgeniy \
+  && apt-get update && apt-get install -y \
+     git
+
+USER evgeniy
+
+WORKDIR /home/evgeniy/www
+
+
+

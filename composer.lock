@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a085f3bca3e012a0d0f112b199bf21c3",
+    "packages": [
+        {
+            "name": "golovsv/task-brace-checker",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GolovSV/php-hometask-1.git",
+                "reference": "feead85e829585d4b88760d530dfddf128478363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GolovSV/php-hometask-1/zipball/feead85e829585d4b88760d530dfddf128478363",
+                "reference": "feead85e829585d4b88760d530dfddf128478363",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Otus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Golov",
+                    "email": "golov.developing@gmail.com"
+                }
+            ],
+            "description": "My first package",
+            "keywords": [
+                "php",
+                "study"
+            ],
+            "support": {
+                "issues": "https://github.com/GolovSV/php-hometask-1/issues",
+                "source": "https://github.com/GolovSV/php-hometask-1/tree/v1.0.1"
+            },
+            "time": "2022-12-20T06:05:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

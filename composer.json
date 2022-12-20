@@ -1,0 +1,21 @@
+{
+  "name": "golovsv/cli-path-parser",
+  "description": "My first package",
+  "license": "proprietary",
+  "keywords": ["study", "php"],
+  "require": {
+    "php": "^8",
+    "golovsv/task-brace-checker": "^v1.0"
+  },
+  "authors": [
+    {
+      "name": "Sergey Golov",
+      "email": "golov.developing@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Otus\\": "src"
+    }
+  }
+}
